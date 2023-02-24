@@ -59,6 +59,7 @@ ul li {
 
 li a {
     text-decoration: none;
+    font-weight: 550;
     color: gray;  
     margin-left: 2px;
     margin-right: 25px;
@@ -70,7 +71,7 @@ li a {
 
 a#selected {
     
-    color: black;
+    color: #2e2e2e;
 }
 
 
