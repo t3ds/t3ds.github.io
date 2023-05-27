@@ -1,5 +1,6 @@
 import usc from "./usc.png"
 import uom from "./uom.png"
+import resumeFile from "./assets/ShivamKotakResume.pdf"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -16,7 +17,7 @@ const about = {
     // eslint-disable-next-line no-multi-str
     'A graduate student with multi-year experience in creating machine learning and deep learning models, full-stack web development. A quick learner with strong communication skills\
     and leadership qualities.',
-  resume: 'https://example.com',
+  resume: resumeFile,
   social: {
     linkedin: 'https://linkedin.com/in/shivamkotak',
     github: 'https://github.com/t3ds',

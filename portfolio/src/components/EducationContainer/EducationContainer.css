@@ -4,11 +4,12 @@
   text-align: center;
   box-shadow: var(--shadow);
   width: 45%;
+  min-width: 300px;
   transition: transform 0.2s linear;
 }
 
 .unilogo {
-  max-width: 175px;
+  max-width: 60%;
   height: auto;
   background: none;
   /* border-radius: 40%; */
