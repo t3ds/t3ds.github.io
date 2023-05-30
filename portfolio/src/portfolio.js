@@ -12,10 +12,10 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Shivam Kotak',
   role: 'Graduate Student @ University of Southern California',
-  degree: 'Master\'s in Computer Science',
+  degree: 'Masters in Computer Science',
   description:
     // eslint-disable-next-line no-multi-str
-    'A graduate student with multi-year experience in creating machine learning and deep learning models, full-stack web development. A quick learner with strong communication skills\
+    'A graduate student with multi-years experience in creating machine learning and deep learning models, full-stack web development. A team player and quick learner with strong communication skills\
     and leadership qualities.',
   resume: resumeFile,
   social: {
@@ -49,7 +49,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Stick Price Prediction Dashboard',
+    name: 'Stock Price Prediction Dashboard',
     description:
       // eslint-disable-next-line no-multi-str
       'A Dashboard made using Material and React with a Flask backend. The user can Train a model for any number of stocks on the NSE and use them to make predictions.\
@@ -81,10 +81,30 @@ const projects = [
     name: 'Event Search Website',
     description:
       // eslint-disable-next-line no-multi-str
-      'A responsive single-page web application to search for events, get details about an event and its venue and artists/. Also allows users to favourite events they like. It makes use of the Ticketmaster API to fetch information. (Source code is for a Vanilla JS version with Flask. This will be updated soon)',
+      'A responsive single-page web application to search for events, get details about an event and its venue and artists. Also allows users to favourite events they like. It makes use of the Ticketmaster API to fetch information. (Source code is for a Vanilla JS version with Flask. This will be updated soon)',
     stack: ['Angular', 'TypeScript', 'NodeJS', 'Bootstrap'],
     sourceCode: 'https://github.com/t3ds/TicketMaster-EventFinder-Webpage',
     livePreview: 'https://hw8-csci571-sk.wn.r.appspot.com/'
+  },
+
+  {
+    name: 'Hidden Markov Model',
+    description:
+      // eslint-disable-next-line no-multi-str
+      'An implementation of the Hidden Markov Model using the Viterbi Decoding algorithm made in Python. A tagged training file of any language \
+      can be fed to the model. This model can then be used to tag words in the same language. The model makes some assumptions for unseen tokens and transitions',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/t3ds/Hidden-Markov-Model',
+  },
+
+  {
+    name: 'EventFinder Android',
+    description:
+      // eslint-disable-next-line no-multi-str
+      'A version of the event search website mentioned earlier made into an android application.',
+    stack: ['Android', 'Java', 'NodeJS'],
+    sourceCode: 'https://github.com/t3ds/EventFinder-Android',
+
   },
 ]
 

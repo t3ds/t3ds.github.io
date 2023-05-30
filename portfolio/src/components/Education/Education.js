@@ -7,7 +7,7 @@ const Education = () => {
   if (!education.length) return null
 
   return (
-    <section id='projects' className='section projects'>
+    <section id='education' className='section projects'>
       <h2 className='section__title'>Education</h2>
 
       <div className='educations__grid'>
