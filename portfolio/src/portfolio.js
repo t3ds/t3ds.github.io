@@ -24,6 +24,17 @@ const about = {
   },
 }
 
+const experience = [
+  {
+    name: "Cloud Counselage Pvt Ltd",
+    position: "Machine Learning Intern",
+    addr: "Mumbai, Maharashtra, India",
+    dates: "March, 2020 - July, 2020",
+    // eslint-disable-next-line no-multi-str
+    details: "Developed an event recommendation system by extracting the type of event and its domain from an event headline and matching it with employees.\
+    incorporated concepts of TF-IDF and lemmatization among others to train a Support Vector Classifier on a self-created dataset."
+  }
+]
 const education = [
   {
     name:'University of Southern California',
@@ -57,6 +68,28 @@ const projects = [
     stack: ['React', 'Flask', 'Python', 'Keras'],
     sourceCode: 'https://github.com/t3ds/Stock-Price-Prediction',
   },
+
+  {
+    name: 'Football Commentary Guided Player Rating Prediction',
+    description:
+      // eslint-disable-next-line no-multi-str
+      'A project aimed to test the hypothesis that commentary snippets of football matches are sufficient to determine player ratings for a match. Made use of BERT to encode commentaries.\
+      Testing Included using BERT and XLNET for embeddings and testing was done on differnet model types.',
+    stack: ['Python', 'PyTorch'],
+    sourceCode: 'https://github.com/ShivinDass/commentary2ratings',
+  },
+
+  {
+    name: 'MiniGo: An intelligent agent for a minified Go Game',
+    description:
+      // eslint-disable-next-line no-multi-str
+      'MiniGo is an intelligent agent that can play a 5x5 version of the highly popular Go game. The agent was created using alpha-beta pruned min-max algorithm\
+      and was tested against other agents such as a random agent and a greedy agent.',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/t3ds/MiniGo-Agent',
+  },
+
+
   {
     name: 'Manga Downloader',
     description:
@@ -66,15 +99,6 @@ const projects = [
     stack: ['Java', 'JavaFX', 'Selenium', 'BeautifulSoup4'],
     sourceCode: 'https://github.com/t3ds/Manga-Downloader',
     
-  },
-  {
-    name: 'Football Commentary Guided Player Rating Prediction',
-    description:
-      // eslint-disable-next-line no-multi-str
-      'A project aimed to test the hypothesis that commentary snippets of football matches are sufficient to determine player ratings for a match. Made use of BERT to encode commentaries.\
-      Testing Included using BERT and XLNET for embeddings and testing was done on differnet model types.',
-    stack: ['Python', 'PyTorch'],
-    sourceCode: 'https://github.com/ShivinDass/commentary2ratings',
   },
 
   {
@@ -144,4 +168,4 @@ const contact = {
   email: 'skotak@usc.edu',
 }
 
-export { header, about, education, projects, skills, contact }
+export { header, about, experience, education, projects, skills, contact }

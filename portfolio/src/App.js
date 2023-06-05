@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Education from './components/Education/Education'
 import './App.css'
+import Experience from './components/Experience/Experience'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -20,6 +21,7 @@ const App = () => {
       <main>
         <About />
         <Education />
+        <Experience />
         <Projects />
         <Skills />
         <Contact />
