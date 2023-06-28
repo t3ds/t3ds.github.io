@@ -105,9 +105,9 @@ const projects = [
     name: 'Event Search Website',
     description:
       // eslint-disable-next-line no-multi-str
-      'A responsive single-page web application to search for events, get details about an event and its venue and artists. Also allows users to favourite events they like. It makes use of the Ticketmaster API to fetch information. (Source code is for a Vanilla JS version with Flask. This will be updated soon)',
+      'A responsive single-page web application to search for events, get details about an event and its venue and artists. Also allows users to favourite events they like. It makes use of the Ticketmaster API to fetch information.',
     stack: ['Angular', 'TypeScript', 'NodeJS', 'Bootstrap'],
-    sourceCode: 'https://github.com/t3ds/TicketMaster-EventFinder-Webpage',
+    sourceCode: 'https://github.com/t3ds/EventFinder-Angular',
     livePreview: 'https://hw8-csci571-sk.wn.r.appspot.com/'
   },
 
