@@ -130,6 +130,34 @@ const projects = [
     sourceCode: 'https://github.com/t3ds/EventFinder-Android',
 
   },
+
+  {
+    name: 'Pix2Pix',
+    description: "An implementation of the Pix2Pix paper for Image Colorization. It is a generative Adversarial Networl model trained using grayscale and color images of the Tiny-ImageNet Dataset.",
+    stack: ["Python", "PyTorch", "OpenCV"],
+    sourceCode: 'https://github.com/t3ds/Pix2Pix-Image-Colorization/',
+  },
+
+  {
+    name:'Extractive Text Summarization',
+    // eslint-disable-next-line no-multi-str
+    description: "An Extractive Text Summarization model made originally to summarize medicine package inserts but it can be used for general extractive text summarization as well.\
+    It uses OCR to extract the sentences and then uses PageRank and GloVe embeddings to rank each sentence and outputs the top n sentences as a summary.",
+    stack:["Python", "Tesseract", "NetworkX"],
+    sourceCode: "https://github.com/t3ds/Extractive-Text-Summarization/",
+  },
+  {
+    name: "CycleGAN for Image-To-Image Translation",
+    description:"An attempt at implementing the paper for CycleGAN. It is a Genereative Adversarial Model for image-to-image translation. In this case it tested on converting horses to zebras and vice versa.",
+    stack:["Python", "PyTorch"],
+    sourceCode: "https://github.com/t3ds/ML-DL-Projects/tree/main/CycleGAN",
+  },
+  {
+    name:"Restoring Division",
+    description:"Restoring Division implemented from scratch using Java along with a simple UI made using JavaFX to show the steps as well as allow the user to take inputs in the form of text fields.",
+    stack:["Java, JavaFX"],
+    sourceCode: "https://github.com/t3ds/Restoring-Division",
+  },
 ]
 
 const skills = [
