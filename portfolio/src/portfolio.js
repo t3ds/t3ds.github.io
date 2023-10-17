@@ -25,15 +25,6 @@ const about = {
 }
 
 const experience = [
-  {
-    name: "Cloud Counselage Pvt Ltd",
-    position: "Machine Learning Intern",
-    addr: "Mumbai, Maharashtra, India",
-    dates: "March, 2020 - July, 2020",
-    // eslint-disable-next-line no-multi-str
-    details: "Developed an event recommendation system by extracting the type of event and its domain from an event headline and matching it with employees.\
-    incorporated concepts of TF-IDF and lemmatization among others to train a Support Vector Classifier on a self-created dataset."
-  },
 
   {
     name: "CCC Intelligent Solutions",
@@ -43,8 +34,17 @@ const experience = [
     // eslint-disable-next-line no-multi-str
     details: "Leveraged Vision Language Models and Visual Question answering models to streamline the process of subrogation in auto \
     insurance claims. Used AWS (Sagemaker, S3, Lambdas, EC2) to test and deploy models."
-  }
+  },
 
+  {
+    name: "Cloud Counselage Pvt Ltd",
+    position: "Machine Learning Intern",
+    addr: "Mumbai, Maharashtra, India",
+    dates: "March, 2020 - July, 2020",
+    // eslint-disable-next-line no-multi-str
+    details: "Developed an event recommendation system by extracting the type of event and its domain from an event headline and matching it with employees.\
+    incorporated concepts of TF-IDF and lemmatization among others to train a Support Vector Classifier on a self-created dataset."
+  }
   
 ]
 const education = [
