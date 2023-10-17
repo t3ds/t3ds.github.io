@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7970ed15.chunk.css",
-    "main.js": "/static/js/main.3906416b.chunk.js",
-    "main.js.map": "/static/js/main.3906416b.chunk.js.map",
+    "main.js": "/static/js/main.99c0e796.chunk.js",
+    "main.js.map": "/static/js/main.99c0e796.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44d54374.js",
     "runtime-main.js.map": "/static/js/runtime-main.44d54374.js.map",
     "static/js/2.36e5f78a.chunk.js": "/static/js/2.36e5f78a.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.7970ed15.chunk.css.map": "/static/css/main.7970ed15.chunk.css.map",
     "static/js/2.36e5f78a.chunk.js.LICENSE.txt": "/static/js/2.36e5f78a.chunk.js.LICENSE.txt",
-    "static/media/ShivamKotakResume.aed88286.pdf": "/static/media/ShivamKotakResume.aed88286.pdf",
+    "static/media/ShivamKotakResume.3958e112.pdf": "/static/media/ShivamKotakResume.3958e112.pdf",
     "static/media/uom.82141c74.png": "/static/media/uom.82141c74.png",
     "static/media/usc.b2137c26.png": "/static/media/usc.b2137c26.png"
   },
@@ -18,6 +18,6 @@
     "static/js/runtime-main.44d54374.js",
     "static/js/2.36e5f78a.chunk.js",
     "static/css/main.7970ed15.chunk.css",
-    "static/js/main.3906416b.chunk.js"
+    "static/js/main.99c0e796.chunk.js"
   ]
 }

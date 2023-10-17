@@ -33,7 +33,19 @@ const experience = [
     // eslint-disable-next-line no-multi-str
     details: "Developed an event recommendation system by extracting the type of event and its domain from an event headline and matching it with employees.\
     incorporated concepts of TF-IDF and lemmatization among others to train a Support Vector Classifier on a self-created dataset."
+  },
+
+  {
+    name: "CCC Intelligent Solutions",
+    position: "Data Science Intern",
+    addr: "Chicago, Illinois, USA",
+    dates: "August, 2023 - December, 2023",
+    // eslint-disable-next-line no-multi-str
+    details: "Leveraged Vision Language Models and Visual Question answering models to streamline the process of subrogation in auto \
+    insurance claims. Used AWS (Sagemaker, S3, Lambdas, EC2) to test and deploy models."
   }
+
+  
 ]
 const education = [
   {
@@ -167,6 +179,12 @@ const skills = [
   'PyTorch',
   'TensorFlow',
   'Keras',
+  'Transformers',
+  'XGBoost',
+  'Scikit-learn',
+  'Matplotlib/Seaborn',
+  'Numpy/Pandas',
+  'NLTK/SpaCy',
   'Flask',
   'HTML',
   'CSS',
@@ -182,6 +200,13 @@ const skills = [
   'PHP',
   'GCP',
   'AWS',
+  'Amazon DynamoDB',
+  'AWS Sagemaker',
+  'AWS EC2',
+  'AWS S3',
+  'AWS Lambdas',
+  'MLFlow',
+  'PyTorch Lightning',
   'Android',
   'SQL',
   'MongoDB',
@@ -189,6 +214,7 @@ const skills = [
   'PowerBi',
   'Bootstrap',
   'Git',
+  'Gitlab'
 ]
 
 const contact = {
