@@ -32,8 +32,7 @@ const experience = [
     addr: "Chicago, Illinois, USA",
     dates: "August, 2023 - December, 2023",
     // eslint-disable-next-line no-multi-str
-    details: "Leveraged Vision Language Models and Visual Question answering models to streamline the process of subrogation in auto \
-    insurance claims. Used AWS (Sagemaker, S3, Lambdas, EC2) to test and deploy models."
+    details: "Engineered prompts for IDEFICS and Cheetah visual language models for Visual-Question Answering for damage summarization,Deployed into production a pipeline to remove PII in both visual and textual data with help of AWS tools. The pipeline enhances the feature store being used by the Data Science department and is expected to process 100000 demands per week. Created a package of metrics to evaluate generated text with ground truths to evaluate outputs of all generative language models being developed by the company."
   },
 
   {
@@ -177,6 +176,7 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'Python',
   'PyTorch',
+  'PyTorch Lightning',
   'TensorFlow',
   'Keras',
   'Transformers',
@@ -185,7 +185,18 @@ const skills = [
   'Matplotlib/Seaborn',
   'Numpy/Pandas',
   'NLTK/SpaCy',
+  'MLFlow',
+  'Gen AI',
+  'LLMs',
   'Flask',
+  'AWS',
+  'Amazon DynamoDB',
+  'AWS Sagemaker',
+  'AWS EC2',
+  'AWS S3',
+  'AWS Lambdas',
+  'AWS CloudFormation',
+  'GCP',
   'HTML',
   'CSS',
   'JavaScript',
@@ -198,15 +209,6 @@ const skills = [
   'JavaFX',
   'C/C++',
   'PHP',
-  'GCP',
-  'AWS',
-  'Amazon DynamoDB',
-  'AWS Sagemaker',
-  'AWS EC2',
-  'AWS S3',
-  'AWS Lambdas',
-  'MLFlow',
-  'PyTorch Lightning',
   'Android',
   'SQL',
   'MongoDB',
@@ -214,7 +216,8 @@ const skills = [
   'PowerBi',
   'Bootstrap',
   'Git',
-  'Gitlab'
+  'Gitlab',
+  'CI/CD'
 ]
 
 const contact = {
