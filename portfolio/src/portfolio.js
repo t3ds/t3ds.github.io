@@ -50,10 +50,9 @@ const education = [
   {
     name:'University of Southern California',
     degree: 'Master of Science, Computer Science',
-    gpa: '3.71',
+    gpa: '3.75',
     start: 'January, 2022',
-    end: 'Present',
-    expected: 'December, 2023',
+    end: 'December, 2023',
     logo: usc
   },
 
