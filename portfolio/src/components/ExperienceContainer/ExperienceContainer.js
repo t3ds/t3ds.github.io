@@ -11,7 +11,12 @@ const ExperienceContainer = ({ project }) => (
     
 
 
-    <p className='project__description'>{project.details}</p>
+    <p className='project__description'>
+      {project.details.split('\n').map((line, idx) => (
+        // eslint-disable-next-line react/no-array-index-key
+        <div key={`experience-${idx}`}>{line}</div>
+      ))}
+    </p>
 
 
   </div>

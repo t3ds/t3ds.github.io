@@ -31,12 +31,11 @@ const experience = [
     addr: "Los Angeles, California, USA",
     dates: "March, 2024 - Present",
     // eslint-disable-next-line no-multi-str
-    details: "Joined at inception stage and played a key role in building a video editing platform from the ground up.\
-     Designed and iterated on the React front-end, shaping the product vision and coordinating with contractors to guide implementation.\
-     Engineered critical Django backend components, ensuring efficiency and reliability for performance-sensitive workflows.\
-      Developed C++ rendering logic powering the video pipeline, including core code paths that interface with the renderer.\
-      Applied LLM systems and prompt engineering to enable automated editing workflows.\
-      Contributed to AWS infrastructure (Lambda, ECS, S3, CI/CD pipelines), supporting scalability and deployment reliability.\
+    details: "Joined at inception stage and played a key role in building a video editing platform from the ground up.\nDesigned and iterated on the React front-end, shaping the product vision and coordinating with contractors to guide implementation.\n\
+     Engineered critical Django backend components, ensuring efficiency and reliability for performance-sensitive workflows.\n\
+      Developed C++ rendering logic powering the video pipeline, including core code paths that interface with the renderer.\n\
+      Applied LLM systems and prompt engineering to enable automated editing workflows.\n\
+      Contributed to AWS infrastructure (Lambda, ECS, S3, CI/CD pipelines), supporting scalability and deployment reliability.\n\
       Recognized by leadership as a critical team member for adaptability and ability to contribute across frontend, backend, machine learning, and systems programming.\
      "
   },
