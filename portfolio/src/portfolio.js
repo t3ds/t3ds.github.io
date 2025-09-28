@@ -30,7 +30,7 @@ const experience = [
     position: "Software Engineer",
     addr: "Los Angeles, California, USA",
     dates: "March, 2024 - Present",
-    //eslint-disable-next-line no-multi-str
+    // eslint-disable-next-line no-multi-str
     details: "Joined at inception stage and played a key role in building a video editing platform from the ground up.\
      Designed and iterated on the React front-end, shaping the product vision and coordinating with contractors to guide implementation.\
      Engineered critical Django backend components, ensuring efficiency and reliability for performance-sensitive workflows.\
