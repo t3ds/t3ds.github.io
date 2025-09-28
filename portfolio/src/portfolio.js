@@ -25,7 +25,22 @@ const about = {
 }
 
 const experience = [
-
+  {
+    name: "your.MOV",
+    position: "Software Engineer",
+    addr: "Los Angeles, California, USA",
+    dates: "March, 2024 - Present",
+    //eslint-disable-next-line no-multi-str
+    details: "Joined at inception stage and played a key role in building a video editing platform from the ground up.\
+     Designed and iterated on the React front-end, shaping the product vision and coordinating with contractors to guide implementation.\
+     Engineered critical Django backend components, ensuring efficiency and reliability for performance-sensitive workflows.\
+      Developed C++ rendering logic powering the video pipeline, including core code paths that interface with the renderer.\
+      Applied LLM systems and prompt engineering to enable automated editing workflows.\
+      Contributed to AWS infrastructure (Lambda, ECS, S3, CI/CD pipelines), supporting scalability and deployment reliability.\
+      Recognized by leadership as a critical team member for adaptability and ability to contribute across frontend, backend, machine learning, and systems programming.\
+     "
+  },
+  
   {
     name: "CCC Intelligent Solutions",
     position: "Data Science Intern",
