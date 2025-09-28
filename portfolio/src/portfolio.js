@@ -11,12 +11,12 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Shivam Kotak',
-  role: 'Graduate Student @ University of Southern California',
+  role: 'Software Engineer @ your.MOV',
   degree: 'Masters in Computer Science',
   description:
     // eslint-disable-next-line no-multi-str
-    'A graduate student with multi-years experience in creating machine learning and deep learning models, full-stack web development. A team player and quick learner with strong communication skills\
-    and leadership qualities.',
+    'A software engineer with multi-year experience in building fullstack systeams and ML applications. A quick learner who works well in fast paced and challenging environemnts such as startups.\
+    I enjoy working in teams where I can take responsibility and ownership for features and tasks.',
   resume: resumeFile,
   social: {
     linkedin: 'https://linkedin.com/in/shivamkotak',
@@ -65,7 +65,7 @@ const education = [
   {
     name:'University of Southern California',
     degree: 'Master of Science, Computer Science',
-    gpa: '3.75',
+    gpa: '3.80',
     start: 'January, 2022',
     end: 'December, 2023',
     logo: usc
@@ -74,7 +74,7 @@ const education = [
   {
     name:'University of Mumbai',
     degree: 'Bachelor of Engineering, Computer Engineering',
-    gpa: '9.08/10',
+    gpa: '9.1/10',
     start: 'August, 2017',
     end: 'July, 2021',
     logo: uom
@@ -202,7 +202,11 @@ const skills = [
   'MLFlow',
   'Gen AI',
   'LLMs',
+  'FAL',
+  'OpenAI Api\'s',
+  'Prompt Engineering',
   'Flask',
+  'Django',
   'AWS',
   'Amazon DynamoDB',
   'AWS Sagemaker',
@@ -210,6 +214,8 @@ const skills = [
   'AWS S3',
   'AWS Lambdas',
   'AWS CloudFormation',
+  'AWS ECS',
+  'AWS CodePipelines',
   'GCP',
   'HTML',
   'CSS',
@@ -222,6 +228,9 @@ const skills = [
   'Java',
   'JavaFX',
   'C/C++',
+  'Mediapipe',
+  'ffmpeg',
+  'lottie',
   'PHP',
   'Android',
   'SQL',
@@ -231,7 +240,10 @@ const skills = [
   'Bootstrap',
   'Git',
   'Gitlab',
-  'CI/CD'
+  'CI/CD',
+  'Amplitude',
+  'Sentry',
+  'SonarQube',
 ]
 
 const contact = {
